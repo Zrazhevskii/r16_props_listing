@@ -1,4 +1,3 @@
-import React from 'react';
 import { JsonData } from '../App';
 
 interface JsonItem {
@@ -35,7 +34,7 @@ function Item({
         <div className='item'>
             <div className='item-image'>
                 <a href={url}>
-                    <img src={MainImage?.url_570xN} />
+                    <img src={MainImage.url_570xN} />
                 </a>
             </div>
             <div className='item-details'>

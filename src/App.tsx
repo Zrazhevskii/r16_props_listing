@@ -17,10 +17,7 @@ export interface JsonData {
 }
 
 function App() {
-    // const data: JsonData[] = db as JsonData[];
-    return (
-            <Listing items={db} />
-    );
+    return <Listing items={db} />;
 }
 
 export default App;
