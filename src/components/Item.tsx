@@ -1,4 +1,4 @@
-import { JsonData } from '../App';
+import JsonData from './models';
 
 interface JsonItem {
     item: JsonData;
